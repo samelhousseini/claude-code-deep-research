@@ -32,25 +32,32 @@ python install.py
 python install.py --check
 ```
 
-### Configure MCP Search Server
+### Configure MCP Search Servers
 
-Add at least one search provider to `~/.claude/settings.json`:
+The installer can automatically configure MCP search servers for you:
 
-```json
-{
-  "mcpServers": {
-    "tavily": {
-      "command": "npx",
-      "args": ["-y", "tavily-mcp@latest"],
-      "env": {
-        "TAVILY_API_KEY": "your-api-key"
-      }
-    }
-  }
-}
+```bash
+# Interactive configuration (will prompt for API keys)
+python install.py --mcp
+
+# Or provide API keys directly (non-interactive)
+python install.py --tavily-key YOUR_TAVILY_KEY
+python install.py --brave-key YOUR_BRAVE_KEY
+python install.py --perplexity-key YOUR_PERPLEXITY_KEY
+python install.py --firecrawl-key YOUR_FIRECRAWL_KEY
+
+# Install everything with API keys in one command
+python install.py --force --tavily-key YOUR_KEY
 ```
 
-Get your API key from [Tavily](https://tavily.com).
+**Supported MCP Servers:**
+
+| Server | Description | Get API Key |
+|--------|-------------|-------------|
+| Tavily | Recommended for web search | [tavily.com](https://tavily.com) |
+| Brave Search | Alternative web search | [brave.com/search/api](https://brave.com/search/api/) |
+| Perplexity | Deep synthesis and research | [perplexity.ai/settings/api](https://www.perplexity.ai/settings/api) |
+| Firecrawl | Web scraping and crawling | [firecrawl.dev](https://firecrawl.dev/) |
 
 ## Commands
 
