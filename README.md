@@ -122,6 +122,11 @@ The `examples/` directory contains sample files:
 - `sample-fields.yaml` - Example field definitions
 - `sample-result.json` - Example research result
 
+## Reference
+
+- Deep Research Skill for Claude Code / OpenCode - ([link](https://github.com/Weizhena/Deep-Research-skills))
+
+
 ## License
 
 MIT License
