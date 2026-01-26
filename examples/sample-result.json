@@ -1,0 +1,90 @@
+{
+  "basic_info": {
+    "name": "GitHub Copilot",
+    "company": "GitHub (Microsoft)",
+    "release_date": "2021-06-29",
+    "latest_version": "1.143.0",
+    "website": "https://github.com/features/copilot"
+  },
+  "technical_features": {
+    "underlying_model": "OpenAI Codex (GPT-4 based) for Copilot, GPT-4o for Copilot Chat",
+    "context_window": "Up to 8k tokens for suggestions, expanded context with Copilot Chat",
+    "supported_languages": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Ruby",
+      "Go",
+      "Java",
+      "C#",
+      "C++",
+      "PHP",
+      "Swift",
+      "Kotlin",
+      "Rust",
+      "and 30+ more languages"
+    ],
+    "ide_integrations": [
+      "Visual Studio Code",
+      "Visual Studio",
+      "JetBrains IDEs (IntelliJ, PyCharm, etc.)",
+      "Neovim",
+      "GitHub.com (web)",
+      "GitHub Mobile",
+      "Azure Data Studio",
+      "Xcode (preview)"
+    ],
+    "key_features": [
+      "Real-time code suggestions as you type",
+      "Copilot Chat for conversational coding assistance",
+      "Code explanation and documentation generation",
+      "Test generation",
+      "Pull request summaries",
+      "Workspace indexing for codebase-aware suggestions",
+      "Copilot Extensions ecosystem",
+      "Copilot Workspace for issue-to-PR automation"
+    ]
+  },
+  "business_info": {
+    "pricing_model": "Subscription-based with free tier for students/OSS maintainers",
+    "pricing_details": {
+      "individual": "$10/month or $100/year",
+      "business": "$19/user/month",
+      "enterprise": "$39/user/month",
+      "free_tier": "Verified students, teachers, and OSS maintainers"
+    },
+    "target_audience": "Individual developers, development teams, enterprises"
+  },
+  "performance_metrics": {
+    "market_share": "~37-46% of AI coding assistant market (2024)",
+    "benchmark_scores": "[uncertain]",
+    "user_ratings": "4.5/5 average across VS Code Marketplace and JetBrains Marketplace"
+  },
+  "competition_ecosystem": {
+    "competitors": [
+      "Cursor",
+      "Codeium",
+      "Amazon CodeWhisperer",
+      "Tabnine",
+      "Sourcegraph Cody",
+      "Replit AI"
+    ],
+    "unique_advantages": [
+      "Deep GitHub integration (PRs, Issues, Discussions)",
+      "Largest user base and training data",
+      "Enterprise security and compliance features",
+      "Microsoft/Azure ecosystem integration",
+      "Copilot Extensions for customization"
+    ],
+    "limitations": [
+      "Requires internet connection (no offline mode)",
+      "Suggestions may include copyrighted code patterns",
+      "Context window smaller than some competitors",
+      "No self-hosted option for individual plans"
+    ]
+  },
+  "uncertain": [
+    "benchmark_scores"
+  ],
+  "_source_file": "github_copilot.json"
+}
