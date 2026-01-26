@@ -16,7 +16,7 @@ A comprehensive research workflow system for Claude Code that enables structured
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/claude-code-deep-research.git
+git clone https://github.com/samelhousseini/claude-code-deep-research.git
 cd claude-code-deep-research
 
 # Run installer
