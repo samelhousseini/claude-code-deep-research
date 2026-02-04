@@ -28,7 +28,7 @@ def get_claude_dir():
 
 def get_skills_dir():
     """Get the skills installation directory."""
-    return get_claude_dir() / "skills" / "research"
+    return get_claude_dir() / "skills"
 
 
 def get_agents_dir():
@@ -44,7 +44,7 @@ def get_settings_path():
 # Source paths (relative to this script)
 SCRIPT_DIR = Path(__file__).parent.resolve()
 SRC_DIR = SCRIPT_DIR / "src"
-SRC_SKILLS_DIR = SRC_DIR / "skills" / "research"
+SRC_SKILLS_DIR = SRC_DIR / "skills"
 SRC_AGENTS_DIR = SRC_DIR / "agents"
 
 
@@ -57,7 +57,7 @@ SKILL_DIRS = [
     "research-report",
     "research-auto",
 ]
-SKILL_FILES = ["validate_json.py"]
+SKILL_FILES = ["research/validate_json.py"]
 AGENT_FILES = ["web-search-agent.md"]
 
 # MCP Server configurations

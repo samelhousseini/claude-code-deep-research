@@ -83,14 +83,19 @@ Add `--auto` flag for unattended execution:
 ```
 ~/.claude/
 ├── skills/
-│   └── research/
-│       ├── research/SKILL.md
-│       ├── research-add-items/SKILL.md
-│       ├── research-add-fields/SKILL.md
-│       ├── research-deep/SKILL.md
-│       ├── research-report/SKILL.md
-│       ├── research-auto/SKILL.md
-│       └── validate_json.py
+│   ├── research/
+│   │   ├── SKILL.md
+│   │   └── validate_json.py
+│   ├── research-add-items/
+│   │   └── SKILL.md
+│   ├── research-add-fields/
+│   │   └── SKILL.md
+│   ├── research-deep/
+│   │   └── SKILL.md
+│   ├── research-report/
+│   │   └── SKILL.md
+│   └── research-auto/
+│       └── SKILL.md
 └── agents/
     └── web-search-agent.md
 ```
